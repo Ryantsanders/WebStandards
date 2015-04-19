@@ -1,0 +1,435 @@
+/*Body Section*/
+
+/*Added a background image here to make it look better than plan white*/
+body{
+	background-image: url("../images/mirrored.png");
+	padding-top: 70px;
+}
+/* Heading Section */
+/* Changed the heading color of H1 and H3 to be more readable */
+h1:nth-of-type(1) {
+    color: #fff;
+    background-color: #8B0000;
+}
+h3{
+	color: #000;
+
+}
+/* changed the width and height of the park image so it isn't too big */
+img {
+    width:  390px;
+    height: 600px;
+}
+
+/*changed the color of the arrows in the breadcrumb area of the page*/
+.glyphicon-arrow-right {
+	color: #000;
+}
+/* Nav Section */
+/*nav bar menu when near mobile size changed it so that the background color and text color would be a matching theme*/
+.navbar-default .navbar-toggle{
+	background-color: #8B0000;
+	color: #fff;
+}
+/* changed the color of the Nav bar to match the theme */
+.navbar-default{
+	background-color: #f39c12;
+	
+}
+/* changed the color of the nav bar active state and focus state*/
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+      color: #fff;
+      background: #8B0000;
+ }
+ /* changed the color of the hover and focus states of the lists on the drop down toggle menu*/
+ .dropdown-menu > li > a:hover, 
+ .dropdown-menu > li > a:focus {
+ 	color: #fff;
+ 	background: #8B0000;
+ }
+ /* gave the aside li a background so it would be more readable*/
+.areas{
+	background-color: #fff;
+}
+ /* made it so that the hover and focus states of the aside section would be a matching theme with the rest*/
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #8B0000;
+    color: #fff;
+  }
+ /* made it so that the color of the text in the li's in the aside matched the theme*/
+.navbar-default .navbar-nav > li > a {
+   color: #8B0000;
+    }
+    
+/* changed active color on amusement */    
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover {
+    background-color:#8B0000;
+    color: #fff;
+}
+/* paragraph content section/*
+/* added a background so it would be seen better as well as changed the text color and gave it a padding so it wouldn't be right on the edges*/
+.para{
+	width: 600px;
+	padding: 1%;
+	background-color: #8B0000;
+	color: #fff;
+}
+/* Button Section */
+
+/*changed the color of the heart in the thumbnail area of the page*/
+.glyphicon-heart{
+	color: red;
+}
+/*changed the color of the ok symbol in the thumbnail area of the page*/
+.glyphicon-ok{
+	color: blue;
+}
+/*changed the color of the food symbol in the thumbnail area of the page*/
+.glyphicon-cutlery{
+	color: gold;
+}
+/*changed the color of the dollar sign in the thumbnail area of the page*/
+.glyphicon-usd{
+	color: green;
+}
+/* changed the background border color and color of the text of the buttons to match the overall theme */
+.btn-info {
+    background-color: #f39c12;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+/* this is the css for the buttons hover states and focus */
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle .btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+
+#tabs{
+	background-color: #ffffff;
+	width: 600px;
+	height: 100px;
+	padding: 20px;
+
+}
+
+/*the css for the tabs navigation changed the background color made it so that the unordered list wouldn't display bullets*/
+#tabs-nav{
+	width: 600px;
+	height: 75px;
+	padding: 20px;
+	background-color: #ffffff;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* here I had to make it so the tabs would sit next to each other instead of on top*/
+#tabs-nav li{
+	display: inline;
+	
+}
+
+
+ .jb1{
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	background-color:#ffc477;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:30px;
+	width:115px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	
+	
+}
+
+/*The css that went into making the button look like its being pressed down by changing the gradient from bottom to top*/
+.jb1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	background-color:#fb9e25;
+}
+
+/*The css used to make the button sort of bounce when you press it like a confirmation of an action*/
+.jb1:active {
+	position:relative;
+	top:1px;
+}
+
+.sonic{
+	width: 600px;
+	height: 300px;
+}
+
+.weekuser{
+	margin-top: 10px;
+}
+
+.recent{
+	margin-top: 15px;
+	margin-right: 125px;
+}
+
+
+.items{
+	margin-top: 15px;
+}
+
+.cycle {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.cycle div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.cycle img {
+  width: 100%;
+  height: 300px;
+}
+
+.cyb {
+  position: absolute;
+}
+
+.next {
+  right: 165px;
+}
+
+.prev {
+  left: 15px;
+}
+
+.login{
+
+	margin-left: 480px;
+}
+
+.signin{
+	margin-right: 10px;
+}
+
+#overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+
+/*the css for the modal box */
+#modal{
+	width: 500px;
+	background: #ffffff;
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	z-index: 1001;
+	display: none;
+}
+
+/*the Css for the modal heading wit a background some padding and text color*/
+#modal .header {
+	background: #8B0000;
+	color: #FFF;
+	padding: 10px;
+}
+
+/*modal paragraph padding 15px*/
+#modal p{
+	margin: 15px;
+}
+
+/*the css for the button used to close out the modal box changed the text to red and the background to black made it have a pointer when being hovered over*/
+#modal .close {
+	color: red;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #000000;
+	opacity: 100;
+}
+
+/*10px padding for the form*/
+.registerform{
+	padding: 10px;
+}
+
+/*10px padding for the form input box*/
+.registerform.input {
+	padding: 10px;
+}
+
+.signin{
+	float: right;
+	margin-bottom: 30px;
+}
+
+/*Details page css*/
+
+.gbdetails{
+	width: 525px;
+	padding: 1%;
+	background-color: #8B0000;
+	color: #fff;
+	text-align: center;
+	margin-left: 390px;
+
+}
+
+.descript{
+	width: 750px;
+	height: 200px;
+	float: right;
+	padding-left: 10px;
+}
+
+.detailb{
+	margin-top: 25px;
+}
+
+/* register css*/
+
+.registerform{
+	clear: left;
+	clear: right;
+	width: 960px;
+	height: 400px;
+	margin-top: 20px;
+	
+}
+
+/*Button div that my button is in had to change the margins so that it would center correctly*/
+.regibtn{
+	clear: left;
+	clear: right;
+	margin-left: 550px;
+	margin-top: -50px;
+}
+
+/*The css used to display the labels next to the input fields as well as give them some space between each other*/
+.regilabel{
+	clear: right;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    margin-left: 425px;
+    text-align: left;
+}
+/*The css used to display the input fields as well as give them some space between each other floated them next so they would sit across the labels*/
+.registerinput {
+	clear: right;
+    margin-bottom: 20px;
+    margin-left: -100px;
+    display: inline-block;
+    float: left;
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+.registerinput {
+    height: 20px;
+    transition: width 1s ease;
+    
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+.registerinput:focus{
+	color: #fff;
+	background: #4b6838;
+	transition: 1s ease;
+}
+
+label{
+	padding-left: 10px;
+}
+
+.regtitle{
+	text-align: center;
+	width: 400px;
+	margin-left: 400px;
+}
+
+.reghead{
+	margin-left: 385px;
+	padding-bottom: 15px;
+}
+
+/*favorites page css*/
+#favebar{
+	width: 200px;
+}
+
+#favetitle{
+	width: 200px;
+}
+
+.faveh1{
+	text-align: center;
+}
+
+.thumbnail{
+	width: 280px;
+	display: inline-block;
+}
+
+.glyphicon.glyphicon-star{
+	color: gold;
+}
+
+.gameimg{
+	height: 200px;
+}
+
+#faves{
+	cursor: pointer;
+}
+
+
+
+/* Footer Section added padding margin and border with a the text color to be more readable for the copyright type section */
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #fff;
+	text-align: center;
+}

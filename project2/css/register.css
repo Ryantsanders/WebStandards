@@ -1,0 +1,160 @@
+/* Ryan Sanders
+   March 3rd, 06 2015*/
+/*Body section added the required width and margin 0 auto to center it gave it a background*/
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-image: url("../images/mirrored.png");
+}
+
+/*Header gave it a logo in the background gave it 960 width and 100px height*/
+header{
+	width: 960px;
+	height: 100px;
+	color: #fff;
+	background-color: #720e2a;
+	
+}
+
+/*The logo I moved it over a little with margins so it wasn't sitting on the edge*/
+img{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/*The css for my h1's I put the font to century aligned it center and changed the font size as well as giving it a default font*/
+h1{
+	text-align: center;
+	font-family: century, sans-serif;
+	font-size: 2em;
+	float: right;
+	padding-right: 325px;
+	padding-top: 15px;
+
+}
+
+/*The css for my h2's same as h1*/
+h2{
+	text-align: center;
+	font-family: century, sans-serif;
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+/*My form Css that host my form elements*/
+.registerform{
+	clear: left;
+	clear: right;
+	width: 960px;
+	height: 400px;
+	margin-top: 20px;
+	
+}
+
+/*Button div that my button is in had to change the margins so that it would center correctly*/
+
+
+/*The css used to display the labels next to the input fields as well as give them some space between each other*/
+label{
+	clear: right;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    margin-left: 350px;
+    text-align: left;
+}
+/*The css used to display the input fields as well as give them some space between each other floated them next so they would sit across the labels*/
+.registerinput {
+	clear: right;
+    margin-bottom: 20px;
+    margin-left: -100px;
+    display: inline-block;
+    float: left;
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+input {
+    height: 20px;
+    transition: width 1s ease;
+    
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+input:focus{
+	color: #fff;
+	background: #4b6838;
+	transition: 1s ease;
+}
+
+/*The css that controls my paragraphs changed the font size and gave it a font of calibri as well as a default font*/
+p{
+	font-family: calibri, sans-serif;
+	font-size: 1.3em;
+}
+/*The css I used to postion my button in my register section*/
+.joinb{
+	padding-top: 60px;
+	float: right;
+	text-align: center;
+}
+
+/*The Css that went into making my login and register buttons this one here is for register areas*/
+.jb {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	background-color:#ffc477;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+
+/*The css that went into making the button look like its being pressed down by changing the gradient from bottom to top*/
+.jb:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	background-color:#fb9e25;
+}
+
+/*The css used to make the button sort of bounce when you press it like a confirmation of an action*/
+.jb:active {
+	position:relative;
+	top:1px;
+}
+
+/*Tooltip css giving it color for the background and texts as well as a border*/
+.tooltip{
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+
+/*Footer css for having a copy right I centered it and cleared it because of my floated elements*/
+footer {
+	clear: left;
+	margin-top: 50px;
+	color: #000;
+	text-align: center;
+	font-size: 0.9em;
+}
