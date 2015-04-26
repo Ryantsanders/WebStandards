@@ -2,6 +2,7 @@
 
 /*Added a background image here to make it look better than plan white*/
 body{
+	width: 100%;
 	background-image: url("../images/mirrored.png");
 	padding-top: 70px;
 }
@@ -10,6 +11,7 @@ body{
 h1:nth-of-type(1) {
     color: #fff;
     background-color: #8B0000;
+
 }
 h3{
 	color: #000;
@@ -17,8 +19,16 @@ h3{
 }
 /* changed the width and height of the park image so it isn't too big */
 img {
-    width:  390px;
-    height: 600px;
+    width:  100%;
+    height: 100%;
+}
+
+article{
+	margin-top: 4%;
+}
+
+aside{
+	margin-top: 4%;
 }
 
 /*changed the color of the arrows in the breadcrumb area of the page*/
@@ -28,11 +38,13 @@ img {
 /* Nav Section */
 /*nav bar menu when near mobile size changed it so that the background color and text color would be a matching theme*/
 .navbar-default .navbar-toggle{
+
 	background-color: #8B0000;
 	color: #fff;
 }
 /* changed the color of the Nav bar to match the theme */
 .navbar-default{
+	width: 100%;
 	background-color: #f39c12;
 	
 }
@@ -65,7 +77,10 @@ img {
    color: #8B0000;
     }
     
-/* changed active color on amusement */    
+/* changed active color on amusement */ 
+.nav-pills{
+	width: 280px;
+}   
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover {
     background-color:#8B0000;
@@ -74,10 +89,14 @@ img {
 /* paragraph content section/*
 /* added a background so it would be seen better as well as changed the text color and gave it a padding so it wouldn't be right on the edges*/
 .para{
-	width: 600px;
+	width: 80%;
 	padding: 1%;
 	background-color: #8B0000;
 	color: #fff;
+}
+
+.general{
+	width: 280px;
 }
 /* Button Section */
 
@@ -117,18 +136,18 @@ img {
 
 #tabs{
 	background-color: #ffffff;
-	width: 600px;
-	height: 100px;
-	padding: 20px;
+	width: 80%;
+	height: 100%;
+	padding: 2%;
 
 }
 
 /*the css for the tabs navigation changed the background color made it so that the unordered list wouldn't display bullets*/
 #tabs-nav{
-	width: 600px;
-	height: 75px;
-	padding: 20px;
-	background-color: #ffffff;
+	width: 80%;
+	height: 100%;
+	padding: 2%;
+	background-color: transparent;
 	text-decoration: none;
 	list-style-type: none;
 }
@@ -161,6 +180,7 @@ img {
 	text-shadow:1px 1px 0px #cc9f52;
 	
 	
+	
 }
 
 /*The css that went into making the button look like its being pressed down by changing the gradient from bottom to top*/
@@ -177,8 +197,8 @@ img {
 }
 
 .sonic{
-	width: 600px;
-	height: 300px;
+	width: 80%;
+	height: 100%;
 }
 
 .weekuser{
@@ -295,31 +315,32 @@ img {
 
 /*10px padding for the form input box*/
 .registerform.input {
-	padding: 10px;
+	padding: 1%;
 }
 
 .signin{
 	float: right;
-	margin-bottom: 30px;
+	margin-bottom: 3%px;
 }
 
 /*Details page css*/
 
 .gbdetails{
-	width: 525px;
+	width: 52%;
 	padding: 1%;
 	background-color: #8B0000;
 	color: #fff;
 	text-align: center;
-	margin-left: 390px;
+	margin-left: 20%;
 
 }
 
 .descript{
-	width: 750px;
+	width: 75%;
 	height: 200px;
-	float: right;
-	padding-left: 10px;
+	margin-left: 20%;
+	font-size: 1.5em;
+	
 }
 
 .detailb{
@@ -331,9 +352,9 @@ img {
 .registerform{
 	clear: left;
 	clear: right;
-	width: 960px;
+	width: 100%;
 	height: 400px;
-	margin-top: 20px;
+	margin-top: 2%px;
 	
 }
 
@@ -341,8 +362,8 @@ img {
 .regibtn{
 	clear: left;
 	clear: right;
-	margin-left: 550px;
-	margin-top: -50px;
+	margin-left: 45%;
+	margin-top: 1%;
 }
 
 /*The css used to display the labels next to the input fields as well as give them some space between each other*/
@@ -351,15 +372,15 @@ img {
     display: inline-block;
     float: left;
     clear: left;
-    width: 250px;
-    margin-left: 425px;
+    width: 25%;
+    margin-left: 35%;
     text-align: left;
 }
 /*The css used to display the input fields as well as give them some space between each other floated them next so they would sit across the labels*/
 .registerinput {
 	clear: right;
-    margin-bottom: 20px;
-    margin-left: -100px;
+    margin-bottom: 2%;
+    margin-left: -10%;
     display: inline-block;
     float: left;
 }
@@ -379,30 +400,31 @@ img {
 }
 
 label{
-	padding-left: 10px;
+	padding-left: 1%px;
 }
 
 .regtitle{
 	text-align: center;
-	width: 400px;
-	margin-left: 400px;
+	width: 100%;
+	
 }
 
 .reghead{
-	margin-left: 385px;
+	text-align: center;
 	padding-bottom: 15px;
 }
 
 /*favorites page css*/
 #favebar{
-	width: 200px;
+	width: 25%;
 }
 
 #favetitle{
-	width: 200px;
+	width: 25%;
 }
 
 .faveh1{
+	width: 100%;
 	text-align: center;
 }
 
@@ -415,13 +437,248 @@ label{
 	color: gold;
 }
 
-.gameimg{
+.gamecube{
+	width: 100%;
 	height: 200px;
+}
+
+.sellimg{
+	padding-top: 15%;
+	margin-left: 20%;
+	width: 50%;
 }
 
 #faves{
 	cursor: pointer;
 }
+
+.listed{
+	background-color: #8B0000;
+	color: white;
+}
+
+/*Media Queries*/
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 400px) {
+
+	h1{
+		text-align: center;
+	}
+
+	h2{
+		text-align: center;
+
+	}
+
+	.listed{
+		background-color: #8B0000;
+		color: white;
+	}
+
+
+	.para{
+	width: 100%;
+	padding: 1%;
+	background-color: #8B0000;
+	color: #fff;
+	}
+
+	#tabs-nav{
+	width: 100%;
+	height: 100%;
+	padding-left: 15%;
+	background-color: transparent;;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+	#tabs-nav li{
+	display: inline;
+	
+	}
+	
+	.jb1{
+		margin: 1%;
+
+	}
+
+	#tabs{
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	
+
+	}
+
+	.cycle {
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-left: 30%;
+}
+.cycle div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.cycle img {
+  width: 100%;
+  height: 300px;
+}
+
+.cyb {
+  position: absolute;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 3px;
+}
+
+.sonic{
+	width: 100%;
+	height: 100%;
+}
+
+.listed{
+	color: white;
+	background-color: #8B0000;;
+}
+
+aside{
+	margin-left: 10%;
+}
+
+.registerform{
+	clear: left;
+	clear: right;
+	width: 100%;
+	height: 400px;
+	margin-top: 2%px;
+	
+}
+
+/*Button div that my button is in had to change the margins so that it would center correctly*/
+.regibtn{
+	clear: left;
+	clear: right;
+	margin-left: 35%;
+	margin-top: 1%;
+}
+
+/*The css used to display the labels next to the input fields as well as give them some space between each other*/
+.regilabel{
+	clear: right;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 25%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 1em;
+}
+/*The css used to display the input fields as well as give them some space between each other floated them next so they would sit across the labels*/
+.registerinput {
+
+	clear: right;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    display: inline-block;
+    float: left;
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+.registerinput {
+    height: 20px;
+    transition: width 1s ease;
+    
+}
+
+/*The css used to make the text fields change background color when you type into them*/
+.registerinput:focus{
+	color: #fff;
+	background: #4b6838;
+	transition: 1s ease;
+}
+
+label{
+	padding-left: 1%px;
+}
+
+.regtitle{
+	text-align: center;
+	width: 100%;
+	
+}
+
+.reghead{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#favebar{
+	width: 100%;
+}
+
+#favetitle{
+	width: 100%;
+}
+
+.faveh1{
+	width: 100%;
+	text-align: center;
+}
+
+.thumbnail{
+	width: 100%;
+}
+
+.gamecube{
+	width: 100%;
+	height: 200px;
+}
+
+.sellimg{
+	margin-left: 20%;
+	margin-top: 60%;
+	width: 50%;
+}
+.gbdetails{
+	width: 75%;
+	padding: 1%;
+	background-color: #8B0000;
+	color: #fff;
+	text-align: center;
+	
+
+}
+
+.descript{
+	width: 75%;
+	height: 200px;
+	font-size: 1.2em;
+	
+}
+
+.detailb{
+	margin-top: 25px;
+}
+
+
+}
+
+
+
+
 
 
 
